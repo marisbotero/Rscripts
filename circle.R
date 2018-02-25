@@ -9,6 +9,7 @@ is.circle = function(center_x, center_y, x, y, r) {
   if ( r != 1 )
   {stop ("El radio por defecto debe ser 1.")}
 
+
   d = r^2 - (center_x-x)^2 + (center_y-y)^2
   if (d < 0){
     "True"
@@ -16,5 +17,12 @@ is.circle = function(center_x, center_y, x, y, r) {
   else{
     "False"
   }
+
+
 }
 
+
+
+
+ 
+ 
